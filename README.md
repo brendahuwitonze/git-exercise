@@ -181,5 +181,13 @@ git commit -- amend -m "updated commit message with "updated the commit message 
  1890  git checkout main
  1891  git pull origin detached-changes
  1892  git push origin main
-
+ 914  git push origin main
+ 1915  git pull orign main
+ 1916  git commit -m "updates in the readme"
+ 1917  git push origin master
+ 1918  git push origin main
+ 1919  git pull orign main
+ 1920  git pull origin main
+ 1921  git push origin main
+ 1922  git log
 

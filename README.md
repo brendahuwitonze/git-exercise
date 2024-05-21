@@ -132,6 +132,17 @@ git commit -- amend -m "updated commit message with "updated the commit message 
  1798  git push origin main
   1811  git mergetool --tool-help
  1812  git commit -m "Resolved merge conflicts"
+ 1825  touch .gitignore
+ 1826  cd .gitignore
+ 1827  git status
+ 1828  git add .
+ 1829  git commit -m "added the gitignore"
+  1832  git tag v1.0
+ 1833  git tag v2.0
+ 1834  git tag
+ 1835  git add .
+ 1836  git status
+ 1838  git push origin main
 
 
 

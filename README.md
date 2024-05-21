@@ -143,6 +143,43 @@ git commit -- amend -m "updated commit message with "updated the commit message 
  1835  git add .
  1836  git status
  1838  git push origin main
-
+ 1855  git checkout  ft/branch,
+ 1856  git add .
+ 1857  git commit -m "final commit"
+ 1858  git checkout  ft/branch,
+ 1859  git status
+ 1860  git checkout ft/branch
+ 1861  git checkout ft/improved-branch-name
+ 1862  git status
+ 1863  git branch
+ 1864  git checkout detached-changes
+ 1865  git status
+ 1866  git rebase main
+ 1867  git checkout ft/improved-branch-name
+ 1868  git rebase main
+ 1869  git checkout ft/branch
+ 1870  git checkout ft/branch,
+ 1871  git rebase main
+ 1872  git branch
+ 1873  git checkout main
+ 1874  git status
+ 1875  git pull ft/branch,
+ 1876  git pull origin  ft/branch,
+ 1877  git pull origin  ft/improved-branch-name
+ 1878  git pull origin ft/improved-branch-name
+ 1879  git check  ft/improved-branch-name
+ 1880  git check ft/improved-branch-name
+ 1881  git branch
+ 1882  git checkout ft/improved-branch-name
+ 1883  git push origin ft/improved-branch-name
+ 1884  git checkout main
+ 1885  git pull origin ft/improved-branch-name
+ 1886  git branch 
+ 1887  git pull origin detached-changes
+ 1888  git checkout detached-changes
+ 1889  git push origin detached-changes
+ 1890  git checkout main
+ 1891  git pull origin detached-changes
+ 1892  git push origin main
 
 

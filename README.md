@@ -130,6 +130,8 @@ git commit -- amend -m "updated commit message with "updated the commit message 
  1796  git checkout main
  1797  git status
  1798  git push origin main
+  1811  git mergetool --tool-help
+ 1812  git commit -m "Resolved merge conflicts"
 
 
 
